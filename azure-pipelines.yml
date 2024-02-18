@@ -12,7 +12,7 @@ variables:
   bkstrgrg: 'rg-AthleticApp-IacPrereq-dev'
   bkstrg: 'saiacprereqathleticapp'
   bkcontainer: 'terraformstate'
-  bkstrgkey: 'devpipeline.terraform.tfstate'
+  bkstrgkey: 'terraform.tfstate'
 
 stages:
   - stage: tfvalidate
